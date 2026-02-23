@@ -235,13 +235,13 @@
             label = "SYM";
         };
 
-        num_left {
-            label = "NUM_L";
+        braces {
+            label = "BRC";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans  &trans
-                        &trans  &trans  &trans  &trans  &kp KP_NUMBER_0  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans                &trans                 &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LBKT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RBKT  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans    &trans
+                        &trans  &trans  &trans  &trans  &trans    &trans
             >;
         };
 
@@ -249,8 +249,8 @@
             display-name = "CTL";
             bindings = <
 &trans  &trans         &kp C_PREVIOUS     &kp C_PP         &kp C_NEXT  &kp CAPSLOCK          &kp LG(LEFT_BRACKET)  &trans      &kp UP_ARROW   &kp LG(RIGHT_BRACKET)  &trans  &trans
-&trans  &kp LSHFT      &kp LCTRL          &kp LALT         &kp LGUI    &kp C_BRIGHTNESS_INC  &kp LEFT              &kp LEFT    &kp DOWN       &kp RIGHT              &trans  &trans
-&trans  &kp BACKSPACE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE  &kp C_BRIGHTNESS_DEC  &kp TAB               &kp ESCAPE  &kp BACKSPACE  &kp DELETE             &trans  &trans
+&trans  &kp LSHFT      &kp LCTRL          &kp LALT         &kp LGUI    &kp C_BRIGHTNESS_INC  &kp TAB               &kp LEFT    &kp DOWN       &kp RIGHT              &trans  &trans
+&trans  &kp BACKSPACE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE  &kp C_BRIGHTNESS_DEC  &trans                &kp ESCAPE  &kp BACKSPACE  &kp DELETE             &trans  &trans
                                           &trans           &trans      &trans                &trans                &trans      &trans
             >;
         };
