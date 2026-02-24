@@ -217,9 +217,9 @@
         base {
             display-name = "BASE";
             bindings = <
-&kp ESCAPE  &kp Q              &kp W                &kp E            &kp R             &kp T                      &kp Y                      &kp U                              &kp I            &kp O                &kp P                      &kp BACKSPACE
-&kp TAB     &hml LEFT_SHIFT A  &hml LEFT_CONTROL S  &hml LEFT_ALT D  &hml LEFT_META F  &hml LC(LA(LEFT_SHIFT)) G  &hmr LC(LA(LEFT_SHIFT)) H  &hmr LEFT_META J                   &hmr LEFT_ALT K  &hmr LEFT_CONTROL L  &hmr LEFT_SHIFT SEMICOLON  &kp APOSTROPHE
-&trans      &lt 5 Z            &kp X                &kp C            &kp V             &kp B                      &kp N                      &kp M                              &kp COMMA        &kp PERIOD           &kp SLASH                  &kp UNDER
+&kp ESCAPE  &kp Q              &kp W                &kp E            &kp R             &kp T                      &kp Y                      &kp U                              &kp I            &kp O                &kp P                       &kp BACKSPACE
+&kp TAB     &hml LEFT_SHIFT A  &hml LEFT_CONTROL S  &hml LEFT_ALT D  &hml LEFT_META F  &hml LC(LA(LEFT_SHIFT)) G  &hmr LC(LA(LEFT_SHIFT)) H  &hmr LEFT_META J                   &hmr LEFT_ALT K  &hmr LEFT_CONTROL L  &hmr RIGHT_SHIFT SEMICOLON  &kp APOSTROPHE
+&trans      &lt 5 Z            &kp X                &kp C            &kp V             &kp B                      &kp N                      &kp M                              &kp COMMA        &kp PERIOD           &kp SLASH                   &kp UNDER
                                                     &mo 2            &sk LEFT_SHIFT    &mo 3                      &spc_ctl 1 SPACE           &mt RETURN LC(LA(LG(LEFT_SHIFT)))  &mo 2
             >;
         };
