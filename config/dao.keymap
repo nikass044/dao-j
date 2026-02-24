@@ -217,10 +217,10 @@
         base {
             display-name = "BASE";
             bindings = <
-&kp BACKSPACE      &kp Q              &kp W                &kp E            &kp R             &kp T                      &kp Y                      &kp U                              &kp I            &kp O                &kp P                      &kp LEFT_BRACKET
-&kp ESCAPE         &hml LEFT_SHIFT A  &hml LEFT_CONTROL S  &hml LEFT_ALT D  &hml LEFT_META F  &hml LC(LA(LEFT_SHIFT)) G  &hmr LC(LA(LEFT_SHIFT)) H  &hmr LEFT_META J                   &hmr LEFT_ALT K  &hmr LEFT_CONTROL L  &hmr LEFT_SHIFT SEMICOLON  &kp APOSTROPHE
-&kp RIGHT_BRACKET  &lt 5 Z            &kp X                &kp C            &kp V             &kp B                      &kp N                      &kp M                              &kp COMMA        &kp PERIOD           &kp SLASH                  &kp GRAVE
-                                                           &mo 2            &sk LEFT_SHIFT    &spc_ctl 3 SPACE           &mo 1                      &mt RETURN LC(LA(LG(LEFT_SHIFT)))  &mo 2
+&kp ESCAPE  &kp Q              &kp W                &kp E            &kp R             &kp T                      &kp Y                      &kp U                              &kp I            &kp O                &kp P                      &kp BACKSPACE
+&kp TAB     &hml LEFT_SHIFT A  &hml LEFT_CONTROL S  &hml LEFT_ALT D  &hml LEFT_META F  &hml LC(LA(LEFT_SHIFT)) G  &hmr LC(LA(LEFT_SHIFT)) H  &hmr LEFT_META J                   &hmr LEFT_ALT K  &hmr LEFT_CONTROL L  &hmr LEFT_SHIFT SEMICOLON  &kp APOSTROPHE
+&trans      &lt 5 Z            &kp X                &kp C            &kp V             &kp B                      &kp N                      &kp M                              &kp COMMA        &kp PERIOD           &kp SLASH                  &kp UNDER
+                                                    &mo 2            &sk LEFT_SHIFT    &mo 3                      &spc_ctl 1 SPACE           &mt RETURN LC(LA(LG(LEFT_SHIFT)))  &mo 2
             >;
         };
 
@@ -248,10 +248,10 @@
         controls {
             display-name = "CTL";
             bindings = <
-&trans  &trans         &kp C_PREVIOUS     &kp C_PP         &kp C_NEXT  &kp CAPSLOCK          &kp LG(LEFT_BRACKET)  &trans      &kp UP_ARROW   &kp LG(RIGHT_BRACKET)  &trans  &trans
-&trans  &kp LSHFT      &kp LCTRL          &kp LALT         &kp LGUI    &kp C_BRIGHTNESS_INC  &kp TAB               &kp LEFT    &kp DOWN       &kp RIGHT              &trans  &trans
-&trans  &kp BACKSPACE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE  &kp C_BRIGHTNESS_DEC  &trans                &kp ESCAPE  &kp BACKSPACE  &kp DELETE             &trans  &trans
-                                          &trans           &trans      &trans                &trans                &trans      &trans
+&trans  &trans         &kp C_PREVIOUS     &kp C_PP         &kp C_NEXT  &kp CAPSLOCK          &kp LG(LEFT_BRACKET)  &trans    &kp UP_ARROW   &kp LG(RIGHT_BRACKET)  &trans  &trans
+&trans  &kp LSHFT      &kp LCTRL          &kp LALT         &kp LGUI    &kp C_BRIGHTNESS_INC  &trans                &kp LEFT  &kp DOWN       &kp RIGHT              &trans  &trans
+&trans  &kp BACKSPACE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE  &kp C_BRIGHTNESS_DEC  &trans                &trans    &kp BACKSPACE  &kp DELETE             &trans  &trans
+                                          &trans           &trans      &trans                &trans                &trans    &trans
             >;
         };
 
